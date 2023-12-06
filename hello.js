@@ -1,17 +1,26 @@
-var message = "hello!!!";
+var message = "Hello!!!!";
 console.log(message);
-//型推論(Type inference)
+// var id;
+// var email;
+// var isActive;
+// var none;
+// 型推論(Type Inference)
 var id = 1;
 var email = "test@test.com";
 var isActive = true;
 var none;
-//id = "YSE"; ダメ
-//email = 1000; ダメ
-//定義型(Type definition)
+// id = "YSE";
+// email = 1000;
+// isActive = "OK";
+// none = 1000;
+// none = "YSE";
+// 型定義(Type definition)
 // var id:number = 1;
 // var email:string = "test@test.com";
 // var isActive:boolean = true;
 // var none:any;
+none = "YSE";
+none = 1;
 console.log(id, typeof id);
 console.log(email, typeof email);
 console.log(isActive, typeof isActive);
